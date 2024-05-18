@@ -1,0 +1,80 @@
+# Flutter/Dart/Pub related files
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+.idea/
+
+# IntelliJ related files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code related files
+.vscode/
+*.code-workspace
+
+# Visual Studio Code settings
+.vscode/
+
+# Mac related files
+.DS_Store
+
+# Windows related files
+Thumbs.db
+
+# Android Studio related files
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Flutter build output
+build/
+!**/ios/Flutter/.last_build_id
+
+# iOS related files
+*.xcworkspace/
+*.xcuserdatad/
+*.xcuserdata/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+
+# web related files
+lib/generated_plugin_registrant.dart
+
+# Symbolication files
+app.*.symbols
+app.*.map
+
+# Android related files
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures
+**/android/gradle
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+
+# Firebase related files
+**/firebase_app_id_file.json
+
+# Google Service files
+**/google-services.json
+**/GoogleService-Info.plist
