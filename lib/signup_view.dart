@@ -42,6 +42,9 @@ class SignUpView extends StatelessWidget {
               minWidth: double.infinity,
               color: Colors.redAccent,
               height: 60,
+              shape: RoundedRectangleBorder(
+                  side: const BorderSide(color: Colors.black),
+                  borderRadius: BorderRadius.circular(40)),
               child: const Text(
                 "Sign Up",
                 style: TextStyle(
@@ -49,9 +52,6 @@ class SignUpView extends StatelessWidget {
                   fontSize: 16,
                 ),
               ),
-              shape: RoundedRectangleBorder(
-                  side: const BorderSide(color: Colors.black),
-                  borderRadius: BorderRadius.circular(40)),
             ),
             const SizedBox(
               height: 20,
